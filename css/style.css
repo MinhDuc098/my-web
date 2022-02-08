@@ -1,0 +1,112 @@
+
+header{
+    background-color: #181818	;
+    line-height: 25px ;
+    margin-bottom: 30px;
+    position: relative;
+    
+
+}
+h1{
+    padding: 25px 15px;
+    color: white;
+    display: inline-block;
+    float: left;
+    background: #696969;
+
+}
+header nav a{
+    color: #DCDCDC;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav{
+    padding-left: 250px;
+}
+header nav a:hover{
+    color: #3300CC;
+    background-color: black;
+    cursor: pointer;
+}
+
+.search-bar{
+    
+    position: absolute;
+    right: 15px;
+    top: 90px;
+    border-radius: 15px;
+    margin-left: 16px;
+    margin-top: 16px;
+    display: block;
+    
+    background-color: #696969;
+}
+
+main section .name{
+    text-decoration: none;
+    display: block;
+    color: rgb(41, 34, 34);
+}
+
+main section .name:hover{
+    color: greenyellow ;
+}
+.avatar:hover{
+    background-color: grey;
+    cursor:progress ;
+}
+.list-actor p{
+    display: none;
+    
+}
+
+main section .avatar{
+    border-radius: 4px;
+    width: 180px;
+    height: 200px;
+    
+}
+
+main section .movie{
+    float: left;
+    text-align: center;
+    width: 25%;
+    
+    
+}
+main section .list-actor{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+footer{
+    background-color:#181818 ;
+    
+}
+
+footer p:first-child{
+    
+    float: left;
+    width: 25%;
+    padding-right: 190px;
+    color: #C0C0C0	;
+    margin-left: 25px;
+    text-align: left;
+}
+footer p:last-child{
+    color: #C0C0C0;
+}
+footer table tr th{
+    padding-top: 25px;
+    color: #C0C0C0;
+    text-align: left;
+    
+}
+footer table tr td a{
+    text-decoration: none;
+    color: blue;
+    padding-right: 90px;
+}
